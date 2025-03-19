@@ -84,11 +84,4 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".overlay-popup").classList.add("h");
       document.querySelector(".bungkus-history").classList.add("h");
   };
-   // Tampilkan loading, lalu sembunyikan overlay dan tampilkan halaman utama setelah 3 detik
-        setTimeout(function() {
-            document.getElementById("loading-screen").style.opacity = "0"; // Transisi menghilang
-            setTimeout(function() {
-                document.getElementById("loading-screen").style.display = "none"; // Hilangkan dari tampilan
-                document.body.style.opacity = "1"; // Tampilkan halaman utama dengan efek fade-in
-            }, 1000); // Delay tambahan untuk menghilangkan overlay setelah transisi selesai
-        }, 1000);
+
